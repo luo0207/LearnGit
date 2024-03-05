@@ -25,3 +25,7 @@
 * 检查本地/服务器是否可以连接至github账号中去：```ssh -T git@github.com``` 如果成功连接，则显示如下图：
   
  ![image](https://github.com/luo0207/LearnGit/assets/104191820/e446a940-e3dd-473f-b71e-63a4717431f8)
+
+
+## 常用命令及操作
+* ```git clone + https/ssh``` 可将github上的代码拷贝到本地
