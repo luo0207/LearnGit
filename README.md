@@ -64,3 +64,7 @@ index cc44f64..1ff06b0 100644  # 俩个文件的哈希值
 +* ```git diff``` 可以用于查看工作树、暂存区、最新提交之间的差别  
 \ No newline at end of file
 ```
+
+## 分支操作
+* ```git branch```  可以确定目前所在的分支以及目前的分支名列表
+* ```git checkout -b + 分支名称```
