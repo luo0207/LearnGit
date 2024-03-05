@@ -29,3 +29,9 @@
 
 ## 常用命令及操作
 * ```git clone + https/ssh``` 可将github上的代码拷贝到本地
+* ```git status``` 查询仓库状态
+  一般的状态有： Changes not staged for commit  没有保存的变化
+                Untracked files  新添加的没有被git管理的文件
+* ```git add``` 将文件添加至暂存区
+* ```git commit``` 提交新添加的文件，将暂存区的文件保存
+* ```git push``` 服务器上的文件会更新
