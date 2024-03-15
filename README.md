@@ -90,3 +90,4 @@ index cc44f64..1ff06b0 100644  # 俩个文件的哈希值
 * ```git branch -a``` 获取当前本地仓库和远程仓库的分支信息
 * ```git checkout -b feab origin/feab``` 获取远程的feab分支并将其内容放置本地的feab分支中
 * ```git pull origin feab``` 获取远程仓库最新的feab分支的有关内容
+
