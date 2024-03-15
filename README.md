@@ -81,3 +81,4 @@ index cc44f64..1ff06b0 100644  # 俩个文件的哈希值
 * ```git log```往往只可以得到截至当前的记录，如果想看到之前的记录，则需要进行```git reflog```
 * ```git commit -am + 文件名```添加并commit当前文件
 * ```git commit -amend```可以修改上次提交的文件名称
+* ```git rebase -i HEAD~2```
