@@ -81,4 +81,12 @@ index cc44f64..1ff06b0 100644  # 俩个文件的哈希值
 * ```git log```往往只可以得到截至当前的记录，如果想看到之前的记录，则需要进行```git reflog```
 * ```git commit -am + 文件名```添加并commit当前文件
 * ```git commit -amend```可以修改上次提交的文件名称
-* ```git rebase -i HEAD~2``` 
+* ```git rebase -i HEAD~2``` 将第二行的pick替换为fixup即可
+
+# 远程仓库
+* ```git remote add + 远程仓库的名称```可以添加远程仓库
+* ```git push -u origin master```将分支的内容进行推送 将origin仓库的master分支设置为当前分支的上游 
+* ```git push -u origin + 分支名称```将分支的内容进行推送 推送至远程仓库的分支上游 
+* ```git branch -a``` 获取当前本地仓库和远程仓库的分支信息
+* ```git checkout -b feab origin/feab``` 获取远程的feab分支并将其内容放置本地的feab分支中
+* ```git pull origin feab``` 获取远程仓库最新的feab分支的有关内容
